@@ -20,3 +20,50 @@ main {
     align-items: center; /*축-꼬치 옮기기*/
     justify-content: center; /*아이템 옮기기*/
 }
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-family: 'Nanum Myeongjo', serif;
+    margin-right: 0.5em;
+}
+
+.weather {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2em;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
+.icon{
+    margin-right: 0.3em;
+}
+
+.place {
+    margin-right: 0.3em;
+    text-align: right;
+}
+
+time {
+    font-size: 6em;
+    font-weight: lighter;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.user_name {
+    font-size: 2em;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+input {
+    outline: none;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1em;
+    border-bottom: 0.1em #ffffff solid;
+    font-family: 'Nanum Myeongjo', serif;
+    width: 3em;
+}
