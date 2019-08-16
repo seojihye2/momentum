@@ -1,1 +1,22 @@
 @import 'reset.css';
+body {
+    background-image: url("https://source.unsplash.com/category/nature");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh; /*vh: 보는 화면 기준*/
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    /*main이 아이템*/
+    flex: 1;
+    /*main이 컨테이너*/
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*축-꼬치 옮기기*/
+    justify-content: center; /*아이템 옮기기*/
+}
