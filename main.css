@@ -68,3 +68,7 @@ input {
     font-family: 'Nanum Myeongjo', serif;
     width: 3em;
 }
+
+.disappear {
+    display: none;
+}
